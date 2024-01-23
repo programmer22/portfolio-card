@@ -413,6 +413,7 @@ main {
 .contact-info {
   max-width: calc(100% - 46px);
   width: calc(100% - 46px);
+  padding-bottom: 4px;
 }
 
 .contact-title {
@@ -821,6 +822,12 @@ main {
   background: var(--text-gradient-yellow);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
+}
+
+.education-color {
+  /* White color */
+  color: var(--white-2);
+
 }
 
 .timeline-text {
