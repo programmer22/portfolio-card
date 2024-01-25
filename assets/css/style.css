@@ -1890,9 +1890,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+/* Download Button pdf
+ */
+ .download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
-
-/* TEMPLATES */
-.backgroundColor {
-  background-color: black;
+.download-button:hover {
+  background-color: #45a049;
 }

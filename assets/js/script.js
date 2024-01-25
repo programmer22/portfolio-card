@@ -157,3 +157,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.querySelector('.download-button').addEventListener('click', function() {
+  console.log('PDF download initiated');
+  // Add any additional JavaScript actions here
+});
