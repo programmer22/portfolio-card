@@ -1933,3 +1933,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 580px) {
+  .titles-grid {
+    padding-bottom:10px;
+  }
+}
