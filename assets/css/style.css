@@ -1921,10 +1921,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin: 10px 0;
 }
 
-/* Media query for larger screens */
-@media (min-width: 768px) {
-  .titles-grid {
-      /* Switch to 2x2 grid when screen is wider than 768px */
-      grid-template-columns: repeat(2, 1fr);
-  }
+.titles-grid > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
