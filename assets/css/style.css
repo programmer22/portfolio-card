@@ -1905,3 +1905,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 .download-button:hover {
   background-color: #45a049;
 }
+
+.titles-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+  grid-gap: 10px; /* Adjust the gap between grid items */
+  margin: 10px 0; /* Optional: Adjusts the margin around the grid */
+}
