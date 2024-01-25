@@ -1928,7 +1928,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: 30px;
 }
 /* It is still unresponsive when resized to smaller screen size when smaller or when screen gets smaller, change sidebar to 2x2 instead of block */
-@media (max-width: 1230px) {
+@media (max-width: 1234px) {
   .titles-grid {
     grid-template-columns: 1fr 1fr;
   }
