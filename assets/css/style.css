@@ -1927,3 +1927,34 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 }
 
+
+
+
+
+
+
+/* Styles for screens larger than 768px (tablets and small desktops) */
+@media (min-width: 768px) {
+
+  .avatar-box img {
+    width: 150px; /* Larger avatar size for larger screens */
+  }
+
+  .info-content .title {
+    padding: 10px 20px; /* Larger padding for titles */
+  }
+
+  /* Any other styles that need to change for larger screens */
+}
+
+/* Styles for very large screens (large desktops) */
+@media (min-width: 1249px) {
+ 
+
+  /* Adjust grid layout for titles if needed */
+  .titles-grid {
+    grid-template-columns: repeat(2, 1fr); /* Back to 2x2 grid */
+  }
+
+  /* Any other styles for very large screens */
+}
