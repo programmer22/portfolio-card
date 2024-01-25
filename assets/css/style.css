@@ -1912,3 +1912,19 @@ textarea.form-input::-webkit-resizer { display: none; }
   grid-gap: 10px; /* Adjust the gap between grid items */
   margin: 10px 0; /* Optional: Adjusts the margin around the grid */
 }
+
+
+.titles-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column by default */
+  grid-gap: 10px;
+  margin: 10px 0;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .titles-grid {
+      /* Switch to 2x2 grid when screen is wider than 768px */
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
