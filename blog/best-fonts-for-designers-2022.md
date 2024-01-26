@@ -1,6 +1,6 @@
 ---
 title: "Beginner's Guide to Creating a Webpage with HTML, CSS, and JavaScript"
-cover: ![Cover Image](https://your-image-url.com/cover-image.jpg)
+cover: ![Cover Image](assets/images/blog-1.jpg)
 author: Nick Lopacki
 date: January 25, 2024
 ---
