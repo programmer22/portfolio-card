@@ -162,3 +162,32 @@ document.querySelector('.download-button').addEventListener('click', function() 
   console.log('PDF download initiated');
   // Add any additional JavaScript actions here
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll(".navbar-link");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", function() {
+      // Remove "active" class from all links
+      navLinks.forEach(navLink => {
+        navLink.classList.remove("active");
+      });
+
+      // Add "active" class to the clicked link
+      this.classList.add("active");
+
+      // Save the selected tab ID in localStorage
+      const selectedTabId = this.id;
+      localStorage.setItem("selectedTab", selectedTabId);
+    });
+  });
+
+  // Check if there's a selected tab in localStorage and highlight it.
+  const selectedTabId = localStorage.getItem("selectedTab");
+  if (selectedTabId) {
+    const selectedTab = document.getElementById(selectedTabId);
+    if (selectedTab) {
+      selectedTab.classList.add("active");
+    }
+  }
+});
