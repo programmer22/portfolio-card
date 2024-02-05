@@ -1,9 +1,9 @@
 ---
-title: "Beginner's Guide to Creating a Webpage with HTML, CSS, and JavaScript"
 cover: ![Cover Image](assets/images/blog-1.jpg)
+---
+# Beginner's Guide to Creating a Webpage with HTML, CSS, and JavaScript
 author: Nick Lopacki
 date: January 25, 2024
----
 
 # Beginner's Guide to Creating a Webpage with HTML, CSS, and JavaScript
 
