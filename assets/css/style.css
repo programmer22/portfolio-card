@@ -1926,3 +1926,27 @@ textarea.form-input::-webkit-resizer { display: none; }
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.work-with-me {
+  font-weight: bolder;
+}
+/* Styling for label */
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* Styling for input */
+.date-input {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  color: white
+}
+.choose-date {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 8px;
+}
